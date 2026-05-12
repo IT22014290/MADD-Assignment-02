@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB400000000000000000001 /* NurseryConnectPadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB300000000000000000001 /* NurseryConnectPadApp.swift */; };
+		BB400001000000000000001 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB300001000000000000001 /* RootView.swift */; };
+		BB400002000000000000001 /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB300002000000000000001 /* DataModels.swift */; };
+		BB400003000000000000001 /* EYFSModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB300003000000000000001 /* EYFSModels.swift */; };
+		BB400004000000000000001 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB300004000000000000001 /* Theme.swift */; };
+		BB400005000000000000001 /* SharedComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB300005000000000000001 /* SharedComponents.swift */; };
+		BB400006000000000000001 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB300006000000000000001 /* SampleData.swift */; };
+		BB400007000000000000001 /* ChildrenSidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB300007000000000000001 /* ChildrenSidebarView.swift */; };
+		BB400008000000000000001 /* ChildDetailTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB300008000000000000001 /* ChildDetailTabView.swift */; };
+		BB400009000000000000001 /* DiaryFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB300009000000000000001 /* DiaryFeedView.swift */; };
+		BB40000A000000000000001 /* DiaryEntryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB30000A000000000000001 /* DiaryEntryCard.swift */; };
+		BB40000B000000000000001 /* AddDiaryEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB30000B000000000000001 /* AddDiaryEntryView.swift */; };
+		BB40000C000000000000001 /* DiaryEntryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB30000C000000000000001 /* DiaryEntryDetailView.swift */; };
+		BB40000D000000000000001 /* EYFSLearningJourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB30000D000000000000001 /* EYFSLearningJourneyView.swift */; };
+		BB40000E000000000000001 /* AddObservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB30000E000000000000001 /* AddObservationView.swift */; };
+		BB40000F000000000000001 /* MilestoneTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB30000F000000000000001 /* MilestoneTrackerView.swift */; };
+		BB400010000000000000001 /* AnalyticsDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB300010000000000000001 /* AnalyticsDashboardView.swift */; };
+		BB400011000000000000001 /* AttendanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB300011000000000000001 /* AttendanceView.swift */; };
+		BB400012000000000000001 /* IncidentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB300012000000000000001 /* IncidentListView.swift */; };
+		BB400013000000000000001 /* NewIncidentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB300013000000000000001 /* NewIncidentView.swift */; };
+		BB400014000000000000001 /* ChildProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB300014000000000000001 /* ChildProfileView.swift */; };
+		BB400015000000000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB300015000000000000001 /* Assets.xcassets */; };
+		BB400016000000000000001 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB300016000000000000001 /* Preview Assets.xcassets */; };
+		BB400017000000000000001 /* PhoneSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB300017000000000000001 /* PhoneSessionManager.swift */; };
+		CC400000000000000000001 /* NurseryConnectWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC300000000000000000001 /* NurseryConnectWatchApp.swift */; };
+		CC400001000000000000001 /* WatchMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC300001000000000000001 /* WatchMainView.swift */; };
+		CC400002000000000000001 /* WatchDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC300002000000000000001 /* WatchDataStore.swift */; };
+		CC400003000000000000001 /* AttendanceSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC300003000000000000001 /* AttendanceSummaryView.swift */; };
+		CC400004000000000000001 /* QuickCheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC300004000000000000001 /* QuickCheckInView.swift */; };
+		CC400005000000000000001 /* IncidentAlertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC300005000000000000001 /* IncidentAlertsView.swift */; };
+		CC400006000000000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC300006000000000000001 /* Assets.xcassets */; };
+		CC400007000000000000001 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC300007000000000000001 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26348E382FAFB404000A41BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB500000000000000000001;
+			remoteInfo = NurseryConnectPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26348E342FAFB404000A41BD /* NurseryConnectPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NurseryConnectPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA100000000000000000001 /* NurseryConnectPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NurseryConnectPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA100001000000000000001 /* NurseryConnectWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NurseryConnectWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB300000000000000000001 /* NurseryConnectPadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurseryConnectPadApp.swift; sourceTree = "<group>"; };
+		BB300001000000000000001 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		BB300002000000000000001 /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
+		BB300003000000000000001 /* EYFSModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EYFSModels.swift; sourceTree = "<group>"; };
+		BB300004000000000000001 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		BB300005000000000000001 /* SharedComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedComponents.swift; sourceTree = "<group>"; };
+		BB300006000000000000001 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		BB300007000000000000001 /* ChildrenSidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildrenSidebarView.swift; sourceTree = "<group>"; };
+		BB300008000000000000001 /* ChildDetailTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildDetailTabView.swift; sourceTree = "<group>"; };
+		BB300009000000000000001 /* DiaryFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryFeedView.swift; sourceTree = "<group>"; };
+		BB30000A000000000000001 /* DiaryEntryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryEntryCard.swift; sourceTree = "<group>"; };
+		BB30000B000000000000001 /* AddDiaryEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDiaryEntryView.swift; sourceTree = "<group>"; };
+		BB30000C000000000000001 /* DiaryEntryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryEntryDetailView.swift; sourceTree = "<group>"; };
+		BB30000D000000000000001 /* EYFSLearningJourneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EYFSLearningJourneyView.swift; sourceTree = "<group>"; };
+		BB30000E000000000000001 /* AddObservationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddObservationView.swift; sourceTree = "<group>"; };
+		BB30000F000000000000001 /* MilestoneTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilestoneTrackerView.swift; sourceTree = "<group>"; };
+		BB300010000000000000001 /* AnalyticsDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsDashboardView.swift; sourceTree = "<group>"; };
+		BB300011000000000000001 /* AttendanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceView.swift; sourceTree = "<group>"; };
+		BB300012000000000000001 /* IncidentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentListView.swift; sourceTree = "<group>"; };
+		BB300013000000000000001 /* NewIncidentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewIncidentView.swift; sourceTree = "<group>"; };
+		BB300014000000000000001 /* ChildProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildProfileView.swift; sourceTree = "<group>"; };
+		BB300015000000000000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB300016000000000000001 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB300017000000000000001 /* PhoneSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneSessionManager.swift; sourceTree = "<group>"; };
+		CC300000000000000000001 /* NurseryConnectWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurseryConnectWatchApp.swift; sourceTree = "<group>"; };
+		CC300001000000000000001 /* WatchMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchMainView.swift; sourceTree = "<group>"; };
+		CC300002000000000000001 /* WatchDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchDataStore.swift; sourceTree = "<group>"; };
+		CC300003000000000000001 /* AttendanceSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceSummaryView.swift; sourceTree = "<group>"; };
+		CC300004000000000000001 /* QuickCheckInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickCheckInView.swift; sourceTree = "<group>"; };
+		CC300005000000000000001 /* IncidentAlertsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentAlertsView.swift; sourceTree = "<group>"; };
+		CC300006000000000000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC300007000000000000001 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		26348E352FAFB404000A41BD /* NurseryConnectPadTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = NurseryConnectPadTests; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26348E312FAFB404000A41BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB600000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC600000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA200000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				26348E352FAFB404000A41BD /* NurseryConnectPadTests */,
+				AA200001000000000000001 /* Products */,
+				BB200000000000000000001 /* NurseryConnectPad */,
+				CC200000000000000000001 /* NurseryConnectWatch */,
+			);
+			sourceTree = "<group>";
+		};
+		AA200001000000000000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA100000000000000000001 /* NurseryConnectPad.app */,
+				AA100001000000000000001 /* NurseryConnectWatch.app */,
+				26348E342FAFB404000A41BD /* NurseryConnectPadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB200000000000000000001 /* NurseryConnectPad */ = {
+			isa = PBXGroup;
+			children = (
+				BB300000000000000000001 /* NurseryConnectPadApp.swift */,
+				BB300017000000000000001 /* PhoneSessionManager.swift */,
+				BB200001000000000000001 /* Models */,
+				BB200002000000000000001 /* Views */,
+				BB300015000000000000001 /* Assets.xcassets */,
+				BB200003000000000000001 /* Preview Content */,
+			);
+			path = NurseryConnectPad;
+			sourceTree = "<group>";
+		};
+		BB200001000000000000001 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BB300002000000000000001 /* DataModels.swift */,
+				BB300003000000000000001 /* EYFSModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BB200002000000000000001 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB300001000000000000001 /* RootView.swift */,
+				BB200010000000000000001 /* Shared */,
+				BB200011000000000000001 /* Sidebar */,
+				BB200012000000000000001 /* Children */,
+				BB200013000000000000001 /* Diary */,
+				BB200014000000000000001 /* EYFS */,
+				BB200015000000000000001 /* Analytics */,
+				BB200016000000000000001 /* Attendance */,
+				BB200017000000000000001 /* Incidents */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BB200003000000000000001 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BB300016000000000000001 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB200010000000000000001 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				BB300004000000000000001 /* Theme.swift */,
+				BB300005000000000000001 /* SharedComponents.swift */,
+				BB300006000000000000001 /* SampleData.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		BB200011000000000000001 /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				BB300007000000000000001 /* ChildrenSidebarView.swift */,
+			);
+			path = Sidebar;
+			sourceTree = "<group>";
+		};
+		BB200012000000000000001 /* Children */ = {
+			isa = PBXGroup;
+			children = (
+				BB300008000000000000001 /* ChildDetailTabView.swift */,
+				BB300014000000000000001 /* ChildProfileView.swift */,
+			);
+			path = Children;
+			sourceTree = "<group>";
+		};
+		BB200013000000000000001 /* Diary */ = {
+			isa = PBXGroup;
+			children = (
+				BB300009000000000000001 /* DiaryFeedView.swift */,
+				BB30000A000000000000001 /* DiaryEntryCard.swift */,
+				BB30000B000000000000001 /* AddDiaryEntryView.swift */,
+				BB30000C000000000000001 /* DiaryEntryDetailView.swift */,
+			);
+			path = Diary;
+			sourceTree = "<group>";
+		};
+		BB200014000000000000001 /* EYFS */ = {
+			isa = PBXGroup;
+			children = (
+				BB30000D000000000000001 /* EYFSLearningJourneyView.swift */,
+				BB30000E000000000000001 /* AddObservationView.swift */,
+				BB30000F000000000000001 /* MilestoneTrackerView.swift */,
+			);
+			path = EYFS;
+			sourceTree = "<group>";
+		};
+		BB200015000000000000001 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				BB300010000000000000001 /* AnalyticsDashboardView.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		BB200016000000000000001 /* Attendance */ = {
+			isa = PBXGroup;
+			children = (
+				BB300011000000000000001 /* AttendanceView.swift */,
+			);
+			path = Attendance;
+			sourceTree = "<group>";
+		};
+		BB200017000000000000001 /* Incidents */ = {
+			isa = PBXGroup;
+			children = (
+				BB300012000000000000001 /* IncidentListView.swift */,
+				BB300013000000000000001 /* NewIncidentView.swift */,
+			);
+			path = Incidents;
+			sourceTree = "<group>";
+		};
+		CC200000000000000000001 /* NurseryConnectWatch */ = {
+			isa = PBXGroup;
+			children = (
+				CC300000000000000000001 /* NurseryConnectWatchApp.swift */,
+				CC300001000000000000001 /* WatchMainView.swift */,
+				CC300002000000000000001 /* WatchDataStore.swift */,
+				CC300003000000000000001 /* AttendanceSummaryView.swift */,
+				CC300004000000000000001 /* QuickCheckInView.swift */,
+				CC300005000000000000001 /* IncidentAlertsView.swift */,
+				CC300006000000000000001 /* Assets.xcassets */,
+				CC200001000000000000001 /* Preview Content */,
+			);
+			path = NurseryConnectWatch;
+			sourceTree = "<group>";
+		};
+		CC200001000000000000001 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CC300007000000000000001 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26348E332FAFB404000A41BD /* NurseryConnectPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26348E3C2FAFB404000A41BD /* Build configuration list for PBXNativeTarget "NurseryConnectPadTests" */;
+			buildPhases = (
+				26348E302FAFB404000A41BD /* Sources */,
+				26348E312FAFB404000A41BD /* Frameworks */,
+				26348E322FAFB404000A41BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26348E392FAFB404000A41BD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				26348E352FAFB404000A41BD /* NurseryConnectPadTests */,
+			);
+			name = NurseryConnectPadTests;
+			packageProductDependencies = (
+			);
+			productName = NurseryConnectPadTests;
+			productReference = 26348E342FAFB404000A41BD /* NurseryConnectPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB500000000000000000001 /* NurseryConnectPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD100000000000000000001 /* Build configuration list for PBXNativeTarget "NurseryConnectPad" */;
+			buildPhases = (
+				BB600000000000000000001 /* Frameworks */,
+				BB700000000000000000001 /* Sources */,
+				BB800000000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NurseryConnectPad;
+			productName = NurseryConnectPad;
+			productReference = AA100000000000000000001 /* NurseryConnectPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC500000000000000000001 /* NurseryConnectWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD200000000000000000001 /* Build configuration list for PBXNativeTarget "NurseryConnectWatch" */;
+			buildPhases = (
+				CC600000000000000000001 /* Frameworks */,
+				CC700000000000000000001 /* Sources */,
+				CC800000000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NurseryConnectWatch;
+			productName = NurseryConnectWatch;
+			productReference = AA100001000000000000001 /* NurseryConnectWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					26348E332FAFB404000A41BD = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = BB500000000000000000001;
+					};
+					BB500000000000000000001 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					CC500000000000000000001 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = DD000000000000000000001 /* Build configuration list for PBXProject "NurseryConnectPad" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA200000000000000000001;
+			productRefGroup = AA200001000000000000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB500000000000000000001 /* NurseryConnectPad */,
+				CC500000000000000000001 /* NurseryConnectWatch */,
+				26348E332FAFB404000A41BD /* NurseryConnectPadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26348E322FAFB404000A41BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB800000000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB400015000000000000001 /* Assets.xcassets in Resources */,
+				BB400016000000000000001 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC800000000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC400006000000000000001 /* Assets.xcassets in Resources */,
+				CC400007000000000000001 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26348E302FAFB404000A41BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB700000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB400000000000000000001 /* NurseryConnectPadApp.swift in Sources */,
+				BB400001000000000000001 /* RootView.swift in Sources */,
+				BB400002000000000000001 /* DataModels.swift in Sources */,
+				BB400003000000000000001 /* EYFSModels.swift in Sources */,
+				BB400004000000000000001 /* Theme.swift in Sources */,
+				BB400005000000000000001 /* SharedComponents.swift in Sources */,
+				BB400006000000000000001 /* SampleData.swift in Sources */,
+				BB400007000000000000001 /* ChildrenSidebarView.swift in Sources */,
+				BB400008000000000000001 /* ChildDetailTabView.swift in Sources */,
+				BB400009000000000000001 /* DiaryFeedView.swift in Sources */,
+				BB40000A000000000000001 /* DiaryEntryCard.swift in Sources */,
+				BB40000B000000000000001 /* AddDiaryEntryView.swift in Sources */,
+				BB40000C000000000000001 /* DiaryEntryDetailView.swift in Sources */,
+				BB40000D000000000000001 /* EYFSLearningJourneyView.swift in Sources */,
+				BB40000E000000000000001 /* AddObservationView.swift in Sources */,
+				BB40000F000000000000001 /* MilestoneTrackerView.swift in Sources */,
+				BB400010000000000000001 /* AnalyticsDashboardView.swift in Sources */,
+				BB400011000000000000001 /* AttendanceView.swift in Sources */,
+				BB400012000000000000001 /* IncidentListView.swift in Sources */,
+				BB400013000000000000001 /* NewIncidentView.swift in Sources */,
+				BB400014000000000000001 /* ChildProfileView.swift in Sources */,
+				BB400017000000000000001 /* PhoneSessionManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC700000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC400000000000000000001 /* NurseryConnectWatchApp.swift in Sources */,
+				CC400001000000000000001 /* WatchMainView.swift in Sources */,
+				CC400002000000000000001 /* WatchDataStore.swift in Sources */,
+				CC400003000000000000001 /* AttendanceSummaryView.swift in Sources */,
+				CC400004000000000000001 /* QuickCheckInView.swift in Sources */,
+				CC400005000000000000001 /* IncidentAlertsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26348E392FAFB404000A41BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB500000000000000000001 /* NurseryConnectPad */;
+			targetProxy = 26348E382FAFB404000A41BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26348E3A2FAFB404000A41BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7Z5V4667K;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NurseryConnectPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NurseryConnectPad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NurseryConnectPad";
+			};
+			name = Debug;
+		};
+		26348E3B2FAFB404000A41BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7Z5V4667K;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NurseryConnectPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NurseryConnectPad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NurseryConnectPad";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD000001000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD000002000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DD100001000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NurseryConnectPad/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nurseryconnect.pad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD100002000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NurseryConnectPad/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nurseryconnect.pad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD200001000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NurseryConnectWatch/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.nurseryconnect.pad;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nurseryconnect.pad.watch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		DD200002000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NurseryConnectWatch/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.nurseryconnect.pad;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nurseryconnect.pad.watch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26348E3C2FAFB404000A41BD /* Build configuration list for PBXNativeTarget "NurseryConnectPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26348E3A2FAFB404000A41BD /* Debug */,
+				26348E3B2FAFB404000A41BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD000000000000000000001 /* Build configuration list for PBXProject "NurseryConnectPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD000001000000000000001 /* Debug */,
+				DD000002000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD100000000000000000001 /* Build configuration list for PBXNativeTarget "NurseryConnectPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD100001000000000000001 /* Debug */,
+				DD100002000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD200000000000000000001 /* Build configuration list for PBXNativeTarget "NurseryConnectWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD200001000000000000001 /* Debug */,
+				DD200002000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA000000000000000000001 /* Project object */;
+}
